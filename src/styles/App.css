@@ -1,13 +1,13 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: white;
   overflow: scroll;
   text-align: center;
 }
 
 .container {
   height: 100%;
-  background-color: #0d1116;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 
 .sub-text {
   font-size: 25px;
-  color: white;
+  color: black;
 }
 
 .gradient-text {
@@ -84,7 +84,7 @@
 }
 
 .footer-text {
-  color: white;
+  color: black;
   font-size: 16px;
   font-weight: bold;
 }
@@ -122,4 +122,21 @@
   100% {
     background-position: 0% 50%;
   }
+}
+a:link,a:visited,a:hover,a:active {
+  text-decoration: none;
+}
+.button a {
+	width: 20%;
+	padding: 1.5%;
+	border:solid thin black;
+	letter-spacing: 0.2em;
+	text-align: center;
+	border-radius: 20px;
+	transition: all 0.5s;
+  margin:auto;
+}
+.button a:hover{
+	background-color:black;
+	color: white;
 }
